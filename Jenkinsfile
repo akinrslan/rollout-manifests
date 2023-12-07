@@ -4,7 +4,7 @@ node {
     env.IMAGE = 'akinino/blue-green-rollout-oct'
 
     stage('Clone repository') {
-             git branch: 'main', url: 'https://github.com/akinino/rollout-manifests.git'  
+             git branch: 'main', url: 'https://github.com/akinrslan/rollout-manifests.git'  
     }
 
     stage('Update GIT') {
