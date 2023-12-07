@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'akinino/blue-green-rollout-oct'
+    env.IMAGE = 'akinino/bluegreen-rollout-oct'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/akinrslan/rollout-manifests.git'  
