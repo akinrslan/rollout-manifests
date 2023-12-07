@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: akinino/bluegreen-rollout-oct:12
+          image: akinino/bluegreen-rollout-oct:13
           ports:
             - name: http
               containerPort: 3000
